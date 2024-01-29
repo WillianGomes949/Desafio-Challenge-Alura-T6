@@ -1,5 +1,3 @@
-/*let revel_area = document.getElementById("revel_area");*/
-
 const btnCripto = document.getElementById("btn_1");
 const btnDescripto = document.getElementById("btn_2");
 
