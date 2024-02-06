@@ -12,6 +12,7 @@ body {
     margin: 0 auto;
     background-color: #F3F5FC;
     font-family: 'Inter', sans-serif;
+    /*height: 100dvh;*/
 }
 
 header, main, footer {
@@ -50,7 +51,7 @@ main textarea {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: right;
     margin-bottom: 25px;
     gap: 10px;
 }
@@ -179,12 +180,16 @@ footer .mensage #transfer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
-
+    main textarea{
+        width: auto;
+    }
     .areaDeTexto {
         width: 350px; 
         margin: 0 auto;
         text-align: center;
+        text-align: justify;
     }
 
     main #btn_1, #btn_2 {
@@ -192,6 +197,13 @@ footer .mensage #transfer {
         flex-direction: column;
         flex-wrap: wrap;
         width: 220px;
+    }
+    .img_p_btn {
+        align-items: center;
+    }
+    #btn_1, #btn_2{
+        align-items: center;
+        justify-content: center;
     }
     
   }
